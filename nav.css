@@ -1,0 +1,57 @@
+nav {
+  background-color: #F9F9F9; /* цвет фона*/
+  width: 250px; /* Ширина блока*/
+  position: fixed;
+  top: 45px;
+  left: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+  opacity: 0.1;
+  transition: all 1s ease;
+  height: 92vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: block;
+  padding-bottom: 10px;
+  border-radius: 10px;
+
+}
+
+nav:hover{
+  opacity: 1;
+  transition: all .1s ease;
+}
+
+nav li {
+  margin: 0px;
+  font-weight: normal;
+  font-size: 12px!important;
+  word-break: break-word;
+  padding-top: 5px;
+  text-decoration: none;
+  line-height: normal;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 12px!important;
+  padding-bottom: 5px;
+  word-break: break-word;
+  padding-left: 20px;
+}
+
+nav ol {
+  list-style-type: none;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+nav p {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 14px!important;
+}
